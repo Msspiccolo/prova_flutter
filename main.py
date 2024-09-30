@@ -25,7 +25,7 @@ class Produto(BaseModel):
     preco: float
 
 produtos = [
-    Produto(id=1, nome="Produto A", preco=10.00),
+    Produto(id=1, nome="Brinquedos", preco=10.00),
     Produto(id=2, nome="Produto B", preco=20.00),
     Produto(id=3, nome="Produto C", preco=30.00),
 ]
